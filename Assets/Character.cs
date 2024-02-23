@@ -14,6 +14,10 @@ public class Character : MonoBehaviour
         Debug.Log("Hola soy " + name);
     }
 
+    public bool take_damage(){
+        return true;
+    }
+
     ~Character()
     {
         Debug.Log("Muelto.");

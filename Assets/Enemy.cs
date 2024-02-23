@@ -8,6 +8,7 @@ public class Enemy : Character
     {
 
     }
+    Enemy enemy.take_damage();
 
  
 }
@@ -19,5 +20,6 @@ public class Player : Character
 
     }
 
+    Player player.take_damage();
 
 }

@@ -17,6 +17,7 @@ public class Helloworld : MonoBehaviour
     void Update()
     {
         Debug.Log("Enemy name " + enemy.name);
+        Debug.Log("Pium " + enemy.take_damage);
         Debug.Log("Enemy HP" + enemy.Life);
     }
 }
