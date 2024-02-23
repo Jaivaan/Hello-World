@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Juego{
-public class Helloworld2 : MonoBehaviour
+public class Helloworld : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
