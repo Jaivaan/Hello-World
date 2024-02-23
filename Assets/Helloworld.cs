@@ -5,9 +5,11 @@ using UnityEngine;
 public class Helloworld : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    Enemy enemy;
     void Start()
     {
-        Enemy enemy = new Enemy("ese");
+        enemy = new Enemy("ese");
         Player player = new Player("el man");
     }
 
