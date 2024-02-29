@@ -6,9 +6,8 @@ public class Enemy : Character
 {
     public Enemy(string name) : base(name)
     {
-
+        
     }
-    Enemy enemy.take_damage();
 
  
 }
@@ -19,7 +18,5 @@ public class Player : Character
     {
 
     }
-
-    Player player.take_damage();
 
 }

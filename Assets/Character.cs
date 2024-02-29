@@ -14,12 +14,14 @@ public class Character : MonoBehaviour
         Debug.Log("Hola soy " + name);
     }
 
-    public bool take_damage(){
-        return true;
+    public static void take_damage(Character c){
+        c.life -= 1;
     }
 
     ~Character()
     {
-        Debug.Log("Muelto.");
+        if (life == 0){
+            Debug.Log("Muelto.");
+        }
     }
 }
