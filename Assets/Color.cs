@@ -21,6 +21,7 @@ public class ColorObject : MonoBehaviour{
     {
         if (check == true)
         {
+            //if (Input.GetButton())
             for (int i = 0; i < gameObjects.Length; i++)
             {
                 gameObjects[i].GetComponent<MeshRenderer>().material.color = color;

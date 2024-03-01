@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 1352953604}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Azul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -545,6 +545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 805b72891b0e3bd4cb260b9892493948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  check: 0
+  ColorTag: Azul
+  gameObjects: []
+  color: {r: 0.13317904, g: 0.8113208, b: 0.78240645, a: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

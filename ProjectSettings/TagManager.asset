@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Chuchu
+  - Azul
+  - wheel
+  - motor
+  - Cabina
+  - Arbol
+  - Chimenea
   layers:
   - Default
   - TransparentFX
