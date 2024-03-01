@@ -4,11 +4,29 @@ using UnityEngine;
 
 public class ColorObject : MonoBehaviour{
 
+    private GameObject ObjetoColor;
+    public bool check;
+    public  string ColorTag;
+    public GameObject[] gameObjects;
+    public Color color;
     void Start(){
-        this.GetComponent<MeshRenderer>().material.color = Color.red;
+        gameObjects = GameObject.FindGameObjectsWithTag(ColorTag);
     }
 
     void Update(){
+        UseFindGameObjectWithTag();
+    }
+
+    void UseFindGameObjectWithTag()
+    {
+        if (check == true)
+        {
+            for (int i = 0; i < gameObjects.Length; i++)
+            {
+                gameObjects[i].GetComponent<MeshRenderer>().material.color = color;
+            }
+        }
+       
         
     }
 }
