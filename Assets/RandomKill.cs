@@ -17,6 +17,7 @@ public class RandomKill : MonoBehaviour
         Matanza();
     }
 
+
     private void Matanza()
     {
         if (Input.GetKeyDown(KeyCode.Space))
